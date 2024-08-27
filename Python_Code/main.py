@@ -9,7 +9,7 @@ def main():
 
 
     url= "https://jsonplaceholder.typicode.com/users" 
-    csv_route = r'C:\Users\aronm\Documents\Proyecto ETL\reservasHotel.csv'
+    csv_route = r'C:\Users\USUARIO\Documents\Proyecto ETL\reservasHotel.csv'
 
     def etl():
         

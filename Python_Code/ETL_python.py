@@ -208,7 +208,7 @@ def date_load_field (df,filename):
   df['date_load'] = pd.Timestamp.today().strftime('%Y-%m-%d')
   df['date_load_numeric'] = numeric_date
   
-  return df.to_csv(fr'C:\Users\aronm\Documents\Proyecto ETL\{filename}.csv', index=False)
+  return df.to_csv(fr'C:\Users\USUARIO\Documents\Proyecto ETL\{filename}.csv', index=False)
 
   
 
